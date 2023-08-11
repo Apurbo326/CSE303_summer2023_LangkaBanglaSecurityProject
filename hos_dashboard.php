@@ -13,9 +13,9 @@
     <table>
         <tr>
             <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="account_registration.php">
+            <a class="nav-link" href="crm_signup.php">
             <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Account Registration
+            Open Account for CRM
             </button>
             </a>
             </div>
@@ -23,19 +23,9 @@
 
         <tr>
             <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="account_status.php">
+            <a class="nav-link" href="####.php">
             <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Check Account Status
-            </button>
-            </a>
-            </div>
-        </tr>
-
-        <tr>
-            <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="Nominee_registration.php">
-            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Nominee Registration
+            Review Accounts
             </button>
             </a>
             </div>

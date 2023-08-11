@@ -14,4 +14,5 @@
 </head>
 
 <body>
-    <h1 id="main_title">Langka Bangla Securities (LBS)</h1>
+    <h1 id="main_title">LBS System version 1.0
+    <p id="main_title" style="font-size:14px">Langka Bangla Securities</p></h1>

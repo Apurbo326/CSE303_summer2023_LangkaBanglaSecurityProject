@@ -27,17 +27,7 @@
             <div class="d-inline-flex gap-2 mb-5">
             <a class="nav-link" href="crm_login.php">
             <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            CR Manager
-            </button>
-            </a>
-            </div>
-        </tr>
-
-        <tr>
-            <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="bm_login.php">
-            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Branch Manager
+            Customer Relation Manager
             </button>
             </a>
             </div>
@@ -53,15 +43,6 @@
             </div>
         </tr>
 
-        <tr>
-            <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="broker_login.php">
-            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Broker
-            </button>
-            </a>
-            </div>
-        </tr>
         <p> </p>
 
         <tr>

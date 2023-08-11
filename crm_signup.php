@@ -7,7 +7,7 @@
   <a class="nav-link" href="index.php">
     <img class="mb-4" src="logo.png" alt="" width="250" height="200">
   </a>
-    <h1 class="h3 mb-3 fw-normal">Sign up</h1>
+    <h1 class="h3 mb-3 fw-normal">CRM Account Opening</h1>
 
     <p><br></p>
     
@@ -46,7 +46,7 @@
 	<div class="d-inline-flex gap-2 mb-5">
     <a class="nav-link" href="crm_login.php">
       <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-        Sign up       
+        Register       
       </button>
     </a>
 

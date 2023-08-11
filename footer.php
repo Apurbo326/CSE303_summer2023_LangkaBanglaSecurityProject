@@ -1,4 +1,4 @@
-<p id="main_title_2">© Langka Bangla Securities 2023</p>
+<p id="main_title_2">2023 © Group 13 x Langka Bangla Securities</p>
 
     <!-- Bootstrap Java/Css Files -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
