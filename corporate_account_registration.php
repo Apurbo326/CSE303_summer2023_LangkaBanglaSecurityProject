@@ -7,31 +7,41 @@
   <a class="nav-link" href="index.php">
     <img class="mb-4" src="logo.png" alt="" width="250" height="200">
   </a>
-    <h1 class="h3 mb-3 fw-normal">Corporate Account Registration</h1>
-
-    <div class="form-floating">
-      <input type="number" class="form-control" id="NID" placeholder="text" name="NID">
-      <label for="NID">National ID</label>
-    </div>
-      <p><br></p>
-      <label for="bankstatement">Bank Statement</label>
-      <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
-
-	  <p><br></p>
-      <label for="passsizephoto">Passport Size Photo</label>
-      <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
-
-      <p><br></p>
-      <label for="photoofeidcard">Driving License</label>
-      <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
+    <h1 class="h3 mb-3 fw-normal">Please select Corporate account type</h1>
 
     <p><br></p>
-	<div class="d-inline-flex gap-2 mb-5">
-    <a class="nav-link" href="####">
-      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-        Register       
-      </button>
-    </a>
+    <table>
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="corporate_FAH.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            First Account Holder
+            </button>
+            </a>
+            </div>
+        </tr>
 
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="corporate_JAH.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            Joint Account Holder
+            </button>
+            </a>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="corporate_AP.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            Authorized Person
+            </button>
+            </a>
+            </div>
+        </tr>
+
+</table>
 </main>
+
 <?php include('footer.php') ?>

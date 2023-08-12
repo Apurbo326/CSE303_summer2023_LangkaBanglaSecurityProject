@@ -7,7 +7,7 @@
   <a class="nav-link" href="index.php">
     <img class="mb-4" src="logo.png" alt="" width="250" height="200">
   </a>
-    <h1 class="h3 mb-3 fw-normal">Individual Account Registration</h1>
+    <h1 class="h3 mb-3 fw-normal">Corporate Authorized Person Account Registration</h1>
 
     <div class="form-floating">
       <input type="number" class="form-control" id="NID" placeholder="text" name="NID">
@@ -34,17 +34,49 @@
       <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
 
       <p><br></p>
-      <label for="photoofeidcard">Photo of Employee ID Card</label>
+      <label for="Driving_License">Driving License</label>
       <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
 
-      <p><br></p>
-      <label for="Tradelicense">Trade License</label>
-      <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
+      <h4 class="h4 mb-3 fw-normal"><br>Provide Information about Authorized Person</h4>
 
-      <p><br></p>
-      <label for="poap">Photo of Authorized Person</label>
-      <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
+      <div class="form-floating">
+      <input type="text" class="form-control" id="fh_name" placeholder="text" name="fh_name">
+      <label for="fh_name">Father's OR Husband's name</label>
+      </div>
+      <div class="form-floating">
+      <input type="date" class="form-control" id="fah_dob" placeholder="text" name="fah_dob">
+      <label for="fah_dob">Date of Birth</label>
+      </div>
+      <div class="form-floating">
+      <input type="text" class="form-control" id="fah_gender" placeholder="text" name="fah_gender">
+      <label for="fah_gender">Gender</label>
+      </div>
+      <div class="form-floating">
+      <input type="text" class="form-control" id="fah_nationality" placeholder="text" name="fah_nationality">
+      <label for="fah_nationality">Nationality</label>
+      </div>
+      <div class="form-floating">
+      <input type="text" class="form-control" id="fah_address" placeholder="text" name="fah_address">
+      <label for="fah_address">Permanent Address</label>
+      </div>
+      <div class="form-floating">
+      <input type="number" class="form-control" id="fah_number" placeholder="text" name="fah_number">
+      <label for="fah_number">telephone</label>
+      </div>
+      <div class="form-floating">
+      <input type="email" class="form-control" id="fah_email" placeholder="text" name="fah_email">
+      <label for="fah_email">Email</label>
+      </div>
+      <div class="form-floating">
+      <input type="text" class="form-control" id="fah_occupation" placeholder="text" name="fah_occupation">
+      <label for="fah_occupation">Occupation</label>
+      </div>
+      <div class="form-floating">
+      <input type="number" class="form-control" id="fah_etiin" placeholder="text" name="fah_etiin">
+      <label for="fah_etiin">E-TIIN</label>
+      </div>
 
+      
       <!-- Power of attorney -->
       <p><br></p>
       <div class="checkbox mb-3">

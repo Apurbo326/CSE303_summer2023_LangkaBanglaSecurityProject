@@ -13,9 +13,19 @@
     <table>
         <tr>
             <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="account_registration.php">
+            <a class="nav-link" href="bo_account_registration.php">
             <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Account Registration
+            BO Account Registration
+            </button>
+            </a>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="Nominee_registration.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            Nominee Registration
             </button>
             </a>
             </div>
@@ -33,9 +43,39 @@
 
         <tr>
             <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="Nominee_registration.php">
+            <a class="nav-link" href="bank_registration.php">
             <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Nominee Registration
+            Add Bank Account
+            </button>
+            </a>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="signatureCard_registration.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            Add Signature Card
+            </button>
+            </a>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="kyc_registration.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            Add KYC Profile
+            </button>
+            </a>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="d-inline-flex gap-2 mb-5">
+            <a class="nav-link" href="vas_registration.php">
+            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
+            Value Added Service
             </button>
             </a>
             </div>

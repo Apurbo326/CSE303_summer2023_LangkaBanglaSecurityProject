@@ -41,16 +41,6 @@
             </div>
         </tr>
 
-        <tr>
-            <div class="d-inline-flex gap-2 mb-5">
-            <a class="nav-link" href="Proprietor_account_registration.php">
-            <button class="d-inline-flex align-items-center btn btn-dark btn-lg px-4" type="button">
-            Proprietor Account
-            </button>
-            </a>
-            </div>
-        </tr>
-
 </table>
 </main>
 
