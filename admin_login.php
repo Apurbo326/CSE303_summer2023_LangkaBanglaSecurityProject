@@ -9,23 +9,23 @@
   </a>
     <h1 class="h3 mb-3 fw-normal">Log In</h1>
 
+  <form action="admin_login_into_database.php" method="POST">
     <div class="form-floating">
       <input type="text" class="form-control" id="email" placeholder="text" name="email">
       <label for="email">Email</label>
     </div>
     <div class="form-floating">
-      <input type="number" class="form-control" id="Password" placeholder="number" name="password">
-      <label for="Password">Password</label>
+      <input type="text" class="form-control" id="Password" placeholder="text" name="password">
+      <label for="password">Password</label>
     </div>
 
     <p><br></p>
 	<div class="d-inline-flex gap-2 mb-5">
-    <a class="nav-link" href="admin_dashboard.php">
-      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" name="submit">
         Log In       
       </button>
     </a>
-
-
+  </div>
+</form>
 </main>
 <?php include('footer.php') ?>

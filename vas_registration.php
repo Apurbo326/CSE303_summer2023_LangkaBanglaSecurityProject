@@ -18,8 +18,8 @@
       <label for="name">Investor Name</label>
     </div>
     <div class="form-floating">
-      <input type="number" class="form-control" id="number" placeholder="text" name="number">
-      <label for="number">Your Mobile number</label>
+      <input type="text" class="form-control" id="number" placeholder="text" name="text">
+      <label for="text">Your Mobile number</label>
     </div>
     <div class="form-floating">
       <input type="text" class="form-control" id="email" placeholder="text" name="email">
